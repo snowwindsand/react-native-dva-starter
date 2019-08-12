@@ -1,4 +1,4 @@
-package com.dvastarter;
+package com.duningtest;
 
 import android.app.Application;
 

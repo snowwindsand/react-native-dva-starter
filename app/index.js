@@ -17,4 +17,4 @@ const app = dva({
 
 const App = app.start(<Router />)
 
-AppRegistry.registerComponent('duning-test', () => App)
+AppRegistry.registerComponent('duningtest', () => App)
