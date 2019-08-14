@@ -25,7 +25,7 @@ const HomeNavigator = createBottomTabNavigator({
 
 const titleMap = {
   Home: '测试主页',
-  Account: '用户'
+  Account: '用户',
 }
 
 HomeNavigator.navigationOptions = ({ navigation }) => {
