@@ -23,11 +23,16 @@ const HomeNavigator = createBottomTabNavigator({
   Account: { screen: Account },
 })
 
+const titleMap = {
+  Home: '测试主页',
+  Account: '用户'
+}
+
 HomeNavigator.navigationOptions = ({ navigation }) => {
   const { routeName } = navigation.state.routes[navigation.state.index]
 
   return {
-    headerTitle: routeName,
+    headerTitle: titleMap[routeName] ? titleMap[routeName] : routeName,
   }
 }
 

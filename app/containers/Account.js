@@ -9,7 +9,7 @@ import { createAction, NavigationActions } from '../utils'
 @connect(({ app }) => ({ ...app }))
 class Account extends Component {
   static navigationOptions = {
-    tabBarLabel: 'Account',
+    tabBarLabel: '用户',
     tabBarIcon: ({ focused, tintColor }) => (
       <Image
         style={[styles.icon, { tintColor: focused ? tintColor : 'gray' }]}
